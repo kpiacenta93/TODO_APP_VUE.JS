@@ -211,11 +211,16 @@ onMounted(() => {
 .todoList {
   border: 1px solid grey;
   border-radius: 5px 5px 5px 5px;
+  overflow: auto;
 }
 
 .list{
   border-radius: 15px 15px 15px 15px;
+  overflow: auto;
 }
 
+.todo-list{
+  overflow: auto;
+}
 
 </style>
